@@ -1,0 +1,22 @@
+html {
+}
+
+body {
+}
+
+h1 {
+	padding-top:4rem;
+}
+
+.center {
+	text-align:center;
+}
+
+.row {
+	margin-bottom: 4rem;
+}
+
+.footer {
+	margin-bottom: 3rem;
+	margin-top:4rem;
+}
