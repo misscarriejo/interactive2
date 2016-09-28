@@ -2,10 +2,13 @@ html {
 }
 
 body {
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
 	padding-top:4rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
 }
 
 .center {
