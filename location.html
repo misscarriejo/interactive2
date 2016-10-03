@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
+    <meta name="description" content="Location & Hours">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Carrie Ambo | Interaction Design Tools</title>
+    <title>Carrie Ambo | Location</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -21,7 +21,7 @@
     <!-- Bootstrap core JavaScrip -->
     <script src="js/boostrap.js"></script>
 
-     <!-- 
+    <!-- 
       Minified version that is hosted on the web! Eliminates the need for the file locally. Cool.
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">    -->
@@ -29,14 +29,10 @@
 
     <!-- Look at this font. That's pretty neat. -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,700i" rel="stylesheet">
-
-
-
-   
+    
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
 
 
   </head>
@@ -53,15 +49,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Dr. Ambo & Assoc.</a>
+          <a class="navbar-brand" href="index.html">Dr. Ambo & Assoc.</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#about">Our Team</a></li>
             <li><a href="#contact">Our Services</a></li>
             <li><a href="#about">Patient Resources</a></li>
-            <li><a href="location.html">Location & Hours</a></li>
+            <li class="active"><a href="#">Location & Hours</a></li>
           </ul>
       
         </div><!--/.nav-collapse -->
@@ -70,14 +66,26 @@
 
    
 
-     <div class="jumbotron">
-      <div class="container">
-        <h1>Vision is Everything</h1>
-        <p>How clear is your vision? Dr. Ambo & Associates is the leading provider of optometry services and vision care products in the Issaquah community, and we want to help you achieve and maintain a clear vision for years to come.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-        <p>Or give us a call at (425)-369-6726</p>
+    <div class="container">
+      <div class="row">
+        <div class ="col-lg-10 ">
+          <h2>Getting Here</h2>
+          <p>We're located inside the Issaquah Costco. Don't worry if you don't have a membership — just come in through the Costco Exit and head to the right!</p>
+        </div>
       </div>
     </div>
+
+    
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="map"></div>
+      </div>
+    </div>
+
+
+    <!--  Hey Adam! I based the map code off of http://www.w3schools.com/howto/howto_google_maps.asp. When I updated the coordinates in js/custom.js, the map did not update to reflect this change. Any thoughts on why this is happening? 
+    -->
 
 
     <div class="container center">
@@ -179,6 +187,8 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script> <!-- map -->
+    <script src="js/custom.js"></script>
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
