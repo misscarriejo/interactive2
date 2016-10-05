@@ -16,6 +16,11 @@ h2 {
 	font-weight:700;
 }
 
+.large-icon {
+	font-size:5rem;
+	color:green;
+}
+
 .center {
 	text-align:center;
 }
