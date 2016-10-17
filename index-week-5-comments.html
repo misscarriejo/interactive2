@@ -1,0 +1,219 @@
+<!--
+
+This is great progress Carrie! Things are really starting to take shape.
+
+I appreciate that you ahered to my advice and focused on page layouts and content before delving too deep into adding styles and functionality
+
+Regarding your nav height question. Since you're using a fixed nav, the easiest way to achieve this is going to be to set the height of you navbar and the elements within it. You'll also want to remove the padding from the navbar itself as the items within it won't extend past that. I've made some changes to the nav across your pages here to reflect that, as well as some lines in the CSS. 
+
+Notice that I've used media queries here to only apply those styles on large screen sizes. If we apply these to mobile, your dropdown menu is going to break (go ahead and remove the queries to see what I mean). The mobile menu is also probably going to require a bit of tweaking to space things properly now that I've edited them a bit (sorry about that)
+
+All-in-all, this is really nice stuff. Moving through the final weeks of the project you can start having some fun with CSS, interactions, etc. While this stuff is the more fun aspect (in my opinion), it can also be trickier as things get a bit more experimental. Let me know if any questions or issues 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>Dr. Ambo & Associates</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style-week-5-comments.css" rel="stylesheet">
+
+  <!-- jQuery CDN, called in before Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap core JavaScrip -->
+  <script src="js/bootstrap.js"></script>
+
+  <!-- 
+      Minified version that is hosted on the web! Eliminates the need for the file locally. Cool.
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">    -->
+
+
+  <!-- Look at this font. That's pretty neat. -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,700i" rel="stylesheet">
+
+
+
+
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Dr. Ambo & Associates Logo" width="100px"></a>
+      </div>
+
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+
+          <!-- Adam... how might I increase the height of the 'box' around the active button in the menu? I increased the height of the overall menu to accomodate the logo and the boxes look a little funny not extending to the height of the menu.-->
+
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="#contact">Our Services</a></li>
+          <li><a href="#about">Patient Resources</a></li>
+          <li><a href="location.html">Location & Hours</a></li>
+        </ul>
+
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+
+
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Vision is Everything</h1>
+      <p>How clear is your vision? Dr. Ambo & Associates is the leading provider of optometry services and vision care products in the Issaquah community, and we want to help you achieve and maintain a clear vision for years to come.</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+      <p>Or give us a call at (425)-369-6726</p>
+    </div>
+  </div>
+
+
+  <div class="container center">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="large-icon">
+          <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+        </div>
+        <h3>Convenient Location</h3>
+        <p class="center">Located inside of the Issaquah Costco. If you're not a member, come in through the Exit!</p>
+
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <div class="large-icon">
+          <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
+        </div>
+        <h3>Access to Frames</h3>
+        <p>It's easy to get new frames or contacts. Once you get your prescription, just head over to choose frames from Costco Optical.</p>
+
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+
+        <div class="large-icon">
+          <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+        </div>
+        <h3>Flexible Schedule</h3>
+        <p>We're open every Saturday and some Sundays to help you get in when you need to.</p>
+
+      </div>
+      <!-- /.col-lg-4 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- container-->
+
+
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-3">
+        <a href="" class="thumbnail">
+          <img src="img/sea-otter-1.jpg" alt="Pup on Mama">
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="img/sea-otter-2.jpg" alt="Please">
+        </a>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="img/sea-otter-3.jpg" alt="Happy Raft">
+        </a>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="img/sea-otter-4.jpg" alt="Head Massage">
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-3">
+        <a href="" class="thumbnail">
+          <img src="img/sea-otter-1.jpg" alt="Pup on Mama">
+        </a>
+      </div>
+
+      <div class="col-xs-12 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="img/sea-otter-2.jpg" alt="Please">
+        </a>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="img/sea-otter-3.jpg" alt="Happy Raft">
+        </a>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+          <img src="img/sea-otter-4.jpg" alt="Head Massage">
+        </a>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">Dr. Ambo & Associates © 2016.</p>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+  window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+  </script>
+  <script src="../../dist/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>
