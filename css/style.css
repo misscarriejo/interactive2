@@ -48,9 +48,26 @@ h4 {
 }
 
 .navbar {
-	min-height:70px;
+	min-height: 70px;
 }
 
-.nav {
-	padding-top:10px;
+@media (min-width: 768px) {
+
+.navbar {
+	height: 70px;
+}
+
+.navbar ul {
+	height: 70px;
+}
+
+.navbar ul li {
+	height: 70px;	
+}
+
+.navbar ul li a {
+	height: 70px;
+	padding-top: 25px;
+}
+
 }
