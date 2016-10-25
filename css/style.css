@@ -72,6 +72,15 @@ h4 {
 
 }
 
+@media (min-width:992px) {
+
+.container {
+	max-width:1000px;
+}
+}
+
+
+
 .collapsed {
 	margin-top:18px;
 }
