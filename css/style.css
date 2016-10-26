@@ -2,27 +2,34 @@ html {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Yantramanav', sans-serif;
+	font-weight:300;
+	letter-spacing:.03rem;
+	font-size:1.6rem;
 }
 
 h1 {
 	padding-top:4rem;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Rokkitt', serif;
 	font-weight:700;
 }
 
 h2 {
 	padding-top:4rem;
+	font-family: 'Rokkitt', serif;
 	font-weight:700;
 }
 
 h4 {
-	padding-top:2rem;
+
+	font-family: 'Rokkitt', serif;
+	font-weight:700;
+	font-size:2rem;
 }
 
 .large-icon {
 	font-size:5rem;
-	color:green;
+	color:#FFCD09;
 }
 
 .center {
@@ -47,9 +54,39 @@ h4 {
 	height:40rem;
 }
 
+.heavy {
+	font-weight:700;
+}
+
+
+
+/* Nav! */
 .navbar {
+	font-family: 'Rokkitt', serif;
+	font-size:1.85rem;
 	min-height: 70px;
 }
+
+
+.collapsed {
+	margin-top:18px;
+}
+
+/* Nav! */
+
+
+/* Footer! */
+.footer{
+	font-color:#fff;
+	background-color: #333333;
+	padding:2rem;
+	margin:0;
+}
+
+
+/* End footer! */
+
+
 
 @media (min-width: 768px) {
 
@@ -77,14 +114,4 @@ h4 {
 .container {
 	max-width:1000px;
 }
-}
-
-
-
-.collapsed {
-	margin-top:18px;
-}
-
-.heavy {
-	font-weight:700;
 }
