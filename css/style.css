@@ -68,7 +68,6 @@ h6{
 }
 
 
-
 /* Full Width 'Jumbotron' */
 
 .full{
@@ -111,10 +110,27 @@ h6{
 	min-height: 70px;
 }
 
-
-.collapsed {
+/*.collapsed {
 	margin-top:18px;
 }
+
+.in {
+	margin-top:18px;
+}
+
+.collapsing {
+	margin-top:18px;
+} */
+
+
+.navbar-header {
+	height:70px;
+}
+
+.navbar-toggle {
+	margin-top:18px;
+}
+
 
 /* Nav! */
 
