@@ -1,0 +1,234 @@
+<!--
+
+Great work again this week Carrie. Here are my thoughts as you wrap the site up this week
+
+[1] You could get away with removing the 'Home' link from the navigation and simply linking the logo of the site back to the homepage. This is pretty standard practice and something that's expected by users. It will help declutter your navigation a bit
+
+[2] Since the canvas that is the web gives us an unlimited amount of space to work with, don't be afraid to give the sections of your site a bit more room to breathe. Users are used to and expect to have to scroll to find more information, so on pages like 'Our Services' I think your site would benefit from spacing out each section a bit more and adding some visual cues to separate each section, whether it be alternating background colors, dividers, or anything else you come up with
+
+[3] See what you can do to fix up your mobile navigation so (A) the toggle doesn't look exactly like the default bootstrap menu toggle and (B) it doesn't jump when you click it. Both of these should be things you can adjust through your CSS
+
+[4] I think you could simplify the homepage a bit and just keep the hours / social information on the contact page and/or in the footer. Sometimes a simpler homepage is better than one with more information as it keeps the user focused on the most important things on the site, which you've laid out through your hero image and the three columns below that. Don't feel like you need to include extra information on the homepage just because you can
+
+Keep up the good work this week, and see what you can do to give the site a bit more of a unique look and feel, or brand. I like the palette you've established with the yellow here, and think you could bring that out a bit more throughout the site
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Dr. Ambo & Associates</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  
+    <!-- jQuery CDN, called in before Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap core JavaScrip -->
+    <script src="js/bootstrap.js"></script>
+
+     <!-- 
+      Minified version that is hosted on the web! Eliminates the need for the file locally. Cool.
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">    -->
+
+
+    <!-- Look at this font. That's pretty neat. -->
+   <link href="https://fonts.googleapis.com/css?family=Rokkitt:400,700|Yantramanav:300,500,700" rel="stylesheet">
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Dr. Ambo & Associates Logo" width="100px"></a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="resources.html">Patient Resources</a></li>
+            <li><a href="location.html">Location & Hours</a></li>
+          </ul>
+      
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+  <div class="row"></div>
+
+     <div class="full">
+      <div class="container">
+        <div class="row">
+          <h1>Vision is Everything</h1>
+          <h6>How clear is your vision? Dr. Ambo & Associates is the leading provider of optometry services and vision care products in the Issaquah community, and we want to help you achieve and maintain a clear vision for years to come.</h6>
+          <p><a class="button" href="services.html" role="button">Learn More</a></p>
+          <h6>Or give us a call at (425)-369-6726</h6>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container center">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="large-icon">
+              <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+          </div>
+          <h4>Convenient Location</h4>
+          <p>Located inside of the Issaquah <br>Costco.If you're not a member, <br>come in through the Exit!</p>
+         
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+           <div class="large-icon">
+              <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
+            </div>
+            <h4>Access to Frames</h4>
+            <p>It's easy to get new frames or contacts. Once you get your prescription, just head over to choose frames from Costco Optical.</p>
+         
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+         
+          <div class="large-icon">
+            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+          </div>
+          <h4>Flexible Schedule</h4>
+          <p>We're open every Saturday and <br>some Sundays to help you get in<br> when you need to.</p>
+          
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      </div><!-- container-->
+
+      
+
+      <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+            <hr>
+            <h4>Hours of Operation</h4>
+            <ul> 
+              <li><span class="heavy">Monday:</span> 10:00a – 6:30p</li>
+              <li><span class="heavy">Tuesday:</span>  10:00a – 6:30p</li>
+              <li><span class="heavy">Wednesday:</span>  10:00a – 6:30p</li>
+              <li><span class="heavy">Thursday:</span>  10:00a – 6:30p</li>
+              <li><span class="heavy">Friday:</span>  10:00a – 6:30p</li>
+              <li><span class="heavy">Saturday:</span>  9:30a – 4:30p</li>
+            </ul>
+
+            </div><!--col-->
+
+            <div class="col-md-6">
+            <hr>
+            <h4>Connect with Us</h4>
+              <ul>
+                <li>facebook</li>
+                <li>LinkedIn</li>
+              </ul>
+            </div><!--col-->
+
+        </div><!--row-->
+      </div> <!--container-->
+
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-3">
+          <a href="" class="thumbnail">
+          <img src="img/sea-otter-1.jpg" alt="Pup on Mama">
+          </a>
+        </div>
+
+         <div class="col-md-3">
+          <a href="#" class="thumbnail">
+          <img src="img/sea-otter-2.jpg" alt="Please">
+          </a>
+        </div>
+
+         <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+          <img src="img/sea-otter-3.jpg" alt="Happy Raft">
+          </a>
+        </div>
+
+         <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+          <img src="img/sea-otter-4.jpg" alt="Head Massage">
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-md-3">
+          <a href="" class="thumbnail">
+          <img src="img/sea-otter-1.jpg" alt="Pup on Mama">
+          </a>
+        </div>
+
+         <div class="col-xs-12 col-md-3">
+          <a href="#" class="thumbnail">
+          <img src="img/sea-otter-2.jpg" alt="Please">
+          </a>
+        </div>
+
+         <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+          <img src="img/sea-otter-3.jpg" alt="Happy Raft">
+          </a>
+        </div>
+
+         <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+          <img src="img/sea-otter-4.jpg" alt="Head Massage">
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Dr. Ambo & Associates © 2016.</p>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
