@@ -1,0 +1,159 @@
+html {
+}
+
+body {
+	font-family: 'Yantramanav', sans-serif;
+	font-weight:300;
+	letter-spacing:.03rem;
+	font-size:1.6rem;
+}
+
+h1 {
+	padding-top:4rem;
+	font-family: 'Rokkitt', serif;
+	font-weight:700;
+}
+
+h2 {
+	padding-top:4rem;
+	font-family: 'Rokkitt', serif;
+	font-weight:700;
+}
+
+h4 {
+
+	font-family: 'Rokkitt', serif;
+	font-weight:700;
+	font-size:2rem;
+}
+
+h6{
+	font-family: 'Yantramanav', sans-serif;
+	font-weight:300;
+	font-size:2.1rem;
+
+}
+
+.large-icon {
+	font-size:5rem;
+	color:#FFCD09;
+}
+
+.center {
+	text-align:center;
+	padding-left:2rem;
+	padding-right:2rem;
+	padding-bottom:1rem;
+}
+
+.row {
+	margin-bottom: 2rem;
+	margin-top:2rem;
+}
+
+.footer {
+	margin-bottom: 3rem;
+	margin-top:4rem;
+}
+
+.map {
+	width:100%;
+	height:40rem;
+}
+
+.heavy {
+	font-weight:700;
+}
+
+
+
+/* Full Width 'Jumbotron' */
+
+.full{
+	background-image:url("../img/banner.jpg");
+	box-shadow: inset 0 0 0 1000px rgba(255,255,255,.6);
+	min-height:35rem;
+	background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.button{
+  	font-family: 'Rokkitt', serif;
+  	font-size:2rem;
+  	color:#333333;
+    padding: .5rem 2rem;
+    text-align: center;
+    display: inline-block;
+   
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #FFCD09;
+}
+
+.button:hover {
+    background-color: #FFCD09;
+    color: white;
+}
+
+
+/* End Full Width 'Jumbotron'! */
+
+
+/* Nav! */
+.navbar {
+	font-family: 'Rokkitt', serif;
+	font-size:1.85rem;
+	min-height: 70px;
+}
+
+
+.collapsed {
+	margin-top:18px;
+}
+
+/* Nav! */
+
+
+/* Footer! */
+.footer{
+	font-color:#fff;
+	background-color: #333333;
+	padding:2rem;
+	margin:0;
+}
+
+
+/* End footer! */
+
+
+
+@media (min-width: 768px) {
+
+.navbar {
+	height: 70px;
+}
+
+.navbar ul {
+	height: 70px;
+}
+
+.navbar ul li {
+	height: 70px;	
+}
+
+.navbar ul li a {
+	height: 70px;
+	padding-top: 25px;
+}
+
+}
+
+@media (min-width:992px) {
+
+.container {
+	max-width:1000px;
+}
+}
