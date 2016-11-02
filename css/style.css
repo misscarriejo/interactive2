@@ -31,7 +31,7 @@ h4 {
 h6{
 	font-family: 'Yantramanav', sans-serif;
 	font-weight:300;
-	font-size:2.1rem;
+	font-size:1.8rem;
 }
 
 .push-top{
@@ -81,20 +81,23 @@ h6{
 	height:35rem;
 	background-attachment: fixed;
     background-position: top;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   
 }
 
 
-
-@media (min-width: 768px) {
-	.full{
-		min-height:35rem;
-		background-size: 100%;
+@media (min-width: 992px) {
+	.full {
+		min-height:100%: 
+		min-width:1024px;
 	}
 
+	h6 {
+		font-size:2.1rem;
+	}
+} 
 
-}
+
 
 .button{
   	font-family: 'Rokkitt', serif;
