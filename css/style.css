@@ -9,15 +9,14 @@ body {
 }
 
 h1 {
-	padding-top:4rem;
 	font-family: 'Rokkitt', serif;
 	font-weight:700;
 }
 
 h2 {
-	padding-top:4rem;
 	font-family: 'Rokkitt', serif;
 	font-weight:700;
+	margin-top:1rem;
 }
 
 h4 {
@@ -35,7 +34,7 @@ h6{
 }
 
 .push-top{
-	margin-top:20px;
+	margin-top:7rem;
 }
 
 .push-bottom{
@@ -78,7 +77,7 @@ h6{
 .full{
 	background-image:url("../img/banner.jpg");
 	box-shadow: inset 0 0 0 1000px rgba(255,255,255,.6);
-	height:35rem;
+	height:31rem;
 	background-attachment: fixed;
     background-position: top;
     background-repeat: repeat;
